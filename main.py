@@ -5,4 +5,5 @@ def load_object(filename):
         return pickle.load(f)
 
 # Vulnerable code: Unrestricted pickle deserialization
+#adding comment line
 user_data = load_object('user_input.pkl')
